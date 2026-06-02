@@ -923,3 +923,31 @@ class Main {
     }
 }
 ```
+###linear search
+```java
+import java.util.*;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
+        int p=s.nextInt();
+        int[] a = new int[n];
+        for (int i = 0; i < n; i++) {
+            a[i] = s.nextInt();
+        }
+        boolean flag=false;
+        for (int i = 0; i < n; i++) {
+            if(a[i]==p){
+               flag=true; 
+            }
+        }
+        if(flag){
+            System.out.println("found");
+        }
+        else{
+            System.out.println("not found");
+        }
+    }
+}
+```
