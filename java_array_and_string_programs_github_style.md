@@ -893,7 +893,9 @@ class Main {
     }
 }
 ```
-##rotate an array
+## Moves Zeroes to the End
+
+```java
 import java.util.*;
 
 class Main {
@@ -921,3 +923,4 @@ class Main {
         }
     }
 }
+```
