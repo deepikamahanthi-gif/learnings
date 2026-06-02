@@ -923,6 +923,8 @@ class Main {
     }
 }
 ```
+
+
 ##linear search
 ```java
 import java.util.*;
