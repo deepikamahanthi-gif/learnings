@@ -923,7 +923,7 @@ class Main {
     }
 }
 ```
-###linear search
+##linear search
 ```java
 import java.util.*;
 
